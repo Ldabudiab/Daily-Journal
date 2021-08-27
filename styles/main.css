@@ -1,0 +1,27 @@
+body{
+
+    color: white;
+    background-color: black;
+}
+
+
+
+.entry-box{
+
+  display: flex;
+}
+
+.jrnl-date{
+
+    display: flex;
+}
+
+.concepts-box{
+
+    display: flex;
+}
+
+.mood-box{
+
+    display: flex;
+}
