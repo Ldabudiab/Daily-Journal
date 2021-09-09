@@ -4,6 +4,25 @@ body{
     background-color: black;
 }
 
+header{
+
+    display: flex;
+    background-color: white;
+    color: black;
+}
+
+.headerTitle{
+
+    padding-left: 20px;
+}
+
+.entryTitle{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
 .newPost__input{
     height: 20px;
     width: 200px;
@@ -36,6 +55,8 @@ width: 400px;
 
 .postList{
 display: flex;
+padding-top: 100px;
+padding-bottom: 100px;
 justify-content: center;
 flex-wrap: wrap;
 }
