@@ -5,29 +5,94 @@ body{
 }
 
 .newPost__input{
-    height: 10px;
-    width: 100px;
+    height: 20px;
+    width: 200px;
 }
 
 .newDesc__input{
 
-height: 100px;
-width: 300px;
+height: 200px;
+width: 400px;
+}
+
+.titleBox{
+
+    display: flex;
+    justify-content: center;
 }
 
 
+.conceptBox{
+
+    display: flex;
+    justify-content: center;
+}
+
+.descBox{
+
+    display: flex;
+    justify-content: center;
+}
+
 .postList{
 display: flex;
-flex-direction: column;
 justify-content: center;
+flex-wrap: wrap;
 }
 
 .post{
     margin: 30px;
+    border-radius: 10px;
     background-color: white;
     color: black;
-    border: solid 5px greenyellow;
     width: 200px;
     padding: 30px;
 }
 
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    border-bottom: 1px solid lightblue;
+    padding: 0.5em 0 0.5em 1em;
+    margin-bottom: 2em;
+    position: fixed;
+    z-index: 11;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.footer__item {
+    margin: 0 1rem;
+}
+
+.post__timestamp{
+
+    font-size: 10px;
+}
+
+.post__description{
+
+
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button_pos{
+
+    display: flex;
+    justify-content: center;  
+}
+
+#newPost__submit{
+
+    width: 50px;
+}
+
+#newPost__cancel{
+    
+    width: 70px;
+}
