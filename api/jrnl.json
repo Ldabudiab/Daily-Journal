@@ -1,28 +1,19 @@
 {
-    
-    "users": [
-
-        {
-            "id": 1,
-            "name": "Leith",
-            "cohort": 51
-        }
-
-
-    ],
-
-    "posts": [
-
-        {
-            "id": 1,
-            "date": 1630513816881,
-            "concept": "json",
-            "text": "today blah blah blah blah",
-            "mood": "happy"
-            
-        }
-
-    ]
-
-
+  "users": [
+    {
+      "id": 1,
+      "name": "Leith",
+      "cohort": 51
+    }
+  ],
+  "posts": [
+    {
+      "title": "Updating journal ",
+      "concept": "User posting ",
+      "description": "i learned how to great a form for users to submit their own posts ",
+      "userId": 1,
+      "timestamp": 1631201707552,
+      "id": 1
+    }
+  ]
 }

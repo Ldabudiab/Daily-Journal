@@ -4,31 +4,22 @@ body{
     background-color: black;
 }
 
-
-
-.entry-box{
-
-  display: flex;
+.newPost__input{
+    height: 10px;
+    width: 100px;
 }
 
-.jrnl-date{
+.newDesc__input{
 
-    display: flex;
+height: 100px;
+width: 300px;
 }
 
-.concepts-box{
-
-    display: flex;
-}
-
-.mood-box{
-
-    display: flex;
-}
 
 .postList{
 display: flex;
-
+flex-direction: column;
+justify-content: center;
 }
 
 .post{
@@ -39,3 +30,4 @@ display: flex;
     width: 200px;
     padding: 30px;
 }
+

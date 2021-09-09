@@ -1,17 +1,16 @@
-
+import { dateFormat } from "../helperFunctions/helpers.js"
 
 export const Post = (postObject) => {
 
     return `
-        <section class="post">
-            <header>          
-                <h3 class="post_date">${postObject.date}</h3>
-                <h2 class="post_concept"> concept: ${postObject.concept}</h2>              
-            </header>
-            <h3 class="post_text">${postObject.text}</h3>
-            <h2 class="post_mood">${postObject.mood}</h2>
-            <div><button id="edit--${postObject.id}">Edit</button></div>
-        </section>        
-           
+    <section class="post">
+    <header>       
+        <h2 class="post__concept">${postObject.title}</h2>
+    </header>
+    <h3 class="post__concept">${postObject.concept}</h3>
+    <h3 class="post__timestamp">${dateFormat(postObject.timestamp)}</h3>
+    <h3 class="post__description">${postObject.description}</h3>
+   
+  </section>
 `
 }
